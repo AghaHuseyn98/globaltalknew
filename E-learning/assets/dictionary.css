@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* easybutton */
+.defbut {
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    border: none;
+}
+
+.addremovebtn {
+    border-radius: 100px;
+    border: none;
+    outline: none;
+
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+
+    letter-spacing: -0.04em;
+}
+
+ #head i{
+display: none;
+ }
+
+header hr {
+    background: #F6F5F4;
+    box-shadow: inset 0px -1px 0px #E0E0E0;
+
+}
+
+#firstsec {
+    background: #F6F5F4;
+    padding-top: 40px;
+}
+
+#graph {
+
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+
+
+.typing {
+    font-family: 'Mukta', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    text-decoration: none;
+
+}
+
+#logos  {
+    display: flex;
+    align-items: center;
+
+}
+#logos  div{
+    display: flex;
+    align-items: center;
+}
+#logos div a{
+    color: #000000;
+    font-size: 26px !important;
+}
+#logos div:nth-child(1){
+    margin-left:20px;
+}
+
+#logos i{
+    font-size: 28px;
+    margin-right: 8px;
+}
+
+#logos hr{
+    margin: 0 15px;
+}
+
+#logos div:hover{
+    border-bottom: 2px solid black;
+}
+
+
+#over {
+    display: flex;
+    align-items: center;
+
+}
+
+#over #foot {
+    width: 146px;
+    height: 44px;
+    /* position: absolute; */
+}
+
+
+/* overflow-ya giren images */
+#over #foot img {
+    width: 44px;
+    height: 46px;
+    position: relative;
+    bottom: 48px;
+    left: -10px;
+}
+
+#over i {
+    /* background: #BABABA; */
+    color: #bababa;
+    width: 21px;
+    height: 21px;
+}
+
+#foot a {
+    background: #F2D4DC;
+    border-radius: 14px;
+    display: inline-block;
+    padding: 14px 45px 14px 53px;
+    color: #945069;
+    overflow: hidden;
+}
+
+#over #fan {
+
+    width: 178px;
+    height: 44px;
+
+}
+
+#fan img {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    bottom: 46px;
+    left: -4px;
+}
+
+#fan a {
+    background: #C3DCE3;
+    border-radius: 14px;
+    display: inline-block;
+    padding: 14px 37px 14px 56px;
+    color: #2B788B;
+    overflow: hidden;
+}
+
+/* a1,a2,b1,b2.... */
+
+
+#A1 a {
+    font-size: 26px;
+    color: black;
+    margin-right: 12px;
+}
+
+#A1 #firstbut {
+    background: #639B6D;
+    color: #F6F5F4;
+}
+
+#A1 #secondbut {
+    background: rgba(63, 152, 79, 0.3);
+    color: #639B6D;
+}
+
+#A1 #thirdbut {
+    background: rgba(196, 162, 76, 0.3);
+    color: #C4A24C;
+}
+
+#A1 #fourbut {
+    background: rgba(196, 162, 76, 0.3);
+    color: #C4A24C;
+}
+
+#A1 #fivebut {
+    background: rgba(203, 91, 67, 0.3);
+    color: #CB5B43;
+}
+
+#A1 #sixbut {
+    background: rgba(203, 91, 67, 0.3);
+    color: #CB5B43;
+
+}
+
+#A1 div {
+    display: flex;
+    align-items: center;
+}
+#A1 div:hover{
+    border-bottom: 1px solid black;
+}
+
+#A1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0 52px 0;
+}
+
+/* article */
+
+article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+article #note, #pad, #book{
+    align-self: center;
+    display: flex;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 40px;
+   
+    
+}
+ 
+article #note img{
+   width: 376px;
+   height: auto;
+}
+ 
+article #pad img{
+    width: 376px;
+    height: auto;
+ }
+  
+article #book img{
+    width: 376px;
+    height: auto;
+ }
+
+
+
+/* #note {
+    display: flex;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 40px;
+    
+
+} */
+
+/* smallcontain burada container kimi goturmushem */
+.remark {
+    width: 590px;
+}
+
+.smallcontain {
+    margin: auto;
+    width: 516px;
+}
+
+.translate {
+    display: flex;
+}
+
+.translate h1,
+h2,
+h3 {
+    margin-right: 20px;
+    font-size: 32px !important;
+}
+
+.translate h3 {
+    color: #757575;
+}
+
+.teacher {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.teacher i {
+    padding: 10px 10px;
+    background: #F6F5F4;
+    border-radius: 4px;
+    color: #BABABA;
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 14px;
+}
+
+.remark .orpho {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    display: flex;
+    margin: 21.5px 0;
+
+}
+
+.orpho h1 {
+    margin-right: 10px;
+
+}
+
+.orpho button {
+    color: #F6F5F4;
+    background: #CB5B43;
+    border-radius: 4px;
+    border: none;
+    padding: 4px 12px;
+
+}
+
+
+
+.remark h4 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    letter-spacing: -0.04em;
+    color: #000000;
+
+}
+
+.remark p {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    letter-spacing: -0.04em;
+    /* Primaty/Grey Dark */
+    color: #757575;
+
+}
+
+.remark hr {
+    margin: 12px 0;
+}
+
+.adddictionary{
+    margin-top: 20px;
+}
+.adddictionary button:nth-child(1) {
+    background: #639B6D;
+    padding: 12px 20px;
+    color: #F6F5F4;
+    margin-right: 20px;
+}
+.adddictionary button:nth-child(2) {
+    background: rgba(203, 91, 67, 0.3);
+    padding: 12px 20px;
+    color: #CB5B43;
+}

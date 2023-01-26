@@ -1,0 +1,115 @@
+@media only screen and (max-width:375px) {
+
+
+    .container {
+        max-width: 325px;
+        margin: auto;
+    }
+
+    #header nav .hamburg i {
+        display: inline;
+        margin-left: 4px;
+        margin-right: 74px;
+    }
+
+    #header nav .heapsofa {
+        display: none;
+    }
+
+    #header nav hr {
+        display: none;
+    }
+    header #aral hr{
+        display: none;
+    }
+    #header #signin a{
+       
+        font-size: 13px;
+    }
+    #header #signout a {
+        display: none;
+    }
+
+    #alex div i {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+
+    #card nav article {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .github h2{
+        text-align: center;
+    }
+    #card nav {
+        justify-content: center;
+    }
+    
+
+    #card nav article {
+        width: 335px;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 40px;
+
+    }
+
+    #card nav article .github {
+        width: 295px;
+        margin: auto;
+        justify-content: center;
+
+    }
+
+    #card nav article .github div {
+
+        justify-content: center;
+    }
+
+    .github div h1 {
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    #card nav article img {
+        width: 110px;
+        height: auto;
+    }
+
+    footer .home{
+        justify-content: flex-start;
+    }
+    footer .home .first{
+       
+flex-direction: column;
+margin-right: 100px;
+    }
+    footer .home .first li{
+        align-self: flex-start;
+        margin-bottom: 16px;
+            }
+    footer .home .second{
+        flex-direction: column;
+        align-self: baseline;
+            }
+            footer .home .second li{
+                align-self: flex-start;
+                margin-bottom: 16px;
+                    }
+            footer .youtube{
+                flex-direction: column;
+                    }
+ footer .youtube .three{
+    margin-bottom: 22px;
+ }
+
+
+}

@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+
+:root {
+    --mont: 'Montserrat', sans-serif;
+    --mukta: 'Mukta', sans-serif;
+    --color: #f6f5f4;
+    --dela: 'Dela Gothic One';
+}
+
+/* BUTTON SHRIFT */
+.textbook {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    letter-spacing: -0.04em;
+    /*  */
+
+}
+/* BOLD SHRIFT */
+.boldshrift{
+   
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    text-decoration: none;
+}
+
+header {
+    background: #F6F5F4;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu {
+    display: flex;
+    align-items: baseline;
+    flex-grow: 0.2;
+    justify-content: space-evenly;
+}
+.menu i:nth-child(1){
+    display: none;
+}
+
+header .menu img {
+    padding-top: 2px;
+}
+
+.horizon{
+    width: 0px;
+    height: 16.87px;
+    border: 1.20466px solid #E0E0E0;
+}
+
+header .menu li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+
+header .menu ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Black */
+
+    color: #757575;
+    text-decoration: none;
+
+}
+
+header .menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul .active a {
+    color: black;
+}
+
+header .menu ul li a:hover {
+    color: black;
+}
+
+header .sign a {
+    background: #C3DCE3;
+    border-radius: 100px;
+    width: 41px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 14px;
+    gap: 14px;
+    font-family: --mont;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B788B;
+    text-decoration: none;
+}
+
+header .sign p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+}
+
+header .sign button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Black */
+
+    color: #000000;
+    border: none;
+    background-color: transparent;
+}
+
+header nav {
+    padding: 33px 0;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+header nav .sign {
+    display: flex;
+    align-items: baseline;
+    flex-grow: 0.1;
+    justify-content: space-evenly;
+}
+
+#ecourse {
+    background: #F6F5F4;
+    padding-bottom: 134.61px;
+}
+
+#ecourse nav h1 {
+    width: 221px;
+    /* height: 16px; */
+    /* font-weight 700den yuxari deyismir */
+
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 16px;
+    line-height: 100%;
+
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+
+    /* Primaty/Cyan Dark */
+
+    color: #2B788B;
+    padding-top: 94.61px;
+    margin-bottom: 24px;
+}
+
+
+#ecourse nav h2 {
+    width: 480px;
+    /* height: 201px; */
+    color: #000000;
+    font-size: 56px;
+}
+
+
+#ecourse nav p {
+    width: 396.89px;
+    /* height: 50px; */
+
+    /* Text/Body 1 */
+
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+    margin: 30px 0 32px 0;
+
+}
+
+#ecourse nav a {
+    display: block;
+    width: 165px;
+    background: #C3DCE3;
+    border-radius: 100px;
+    color: #2B788B;
+    margin-bottom: 48.78px;
+    padding: 14px 22px ;
+   
+}
+#gen article img{
+    width:500px !important;
+    height: auto!important;
+}
+
+#gen .learning {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.1;
+}
+
+.learning #mini {
+    display: flex;
+    align-items: center;
+    width: 352.55px;
+    justify-content: space-between;
+}
+
+/* ----ehtiyac var? hech neyi deyismir */
+#ecourse nav #mini img:nth-child(1) {
+    width: 163px;
+    height: 65px;
+    flex-grow: 0.1;
+    justify-content: space-between;
+}
+
+#ecourse nav #mini img:nth-child(2) {
+    width: 92px;
+    height: 65px;
+}
+
+.learning #mini hr {
+    width: 0px;
+    height: 48.78px;
+
+    /* Gray 5 */
+
+    border: 1.21942px solid #E0E0E0;
+}
+
+/* ----- */
+#ecourse #gen {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#ecourse #gen article img {
+    width: 933px;
+    height: 601px;
+    padding-top: 109px;
+}
+
+/* language */
+#language nav {
+    display: flex;
+    padding-bottom: 127.5px;
+}
+
+#language nav article img {
+    margin-right: 120px;
+    padding-top: 77.5px;
+}
+
+#language .sprint h1 {
+    /* Headings/Heading 2 */
+    max-width: 474.46px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 1000;
+
+    font-style: normal;
+
+    font-size: 48px;
+    line-height: 100%;
+    /* or 48px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Black */
+
+    color: #000000;
+    padding-top: 121.5px;
+    margin-bottom: 30px;
+}
+
+#language .sprint h2 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    /* line-height: 140%; */
+    /* or 25px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+    margin-bottom: 30.5;
+    width: 324.89px;
+
+}
+
+#bot {
+    margin-top: 60px;
+    display: flex;
+}
+#shoes1{
+    margin-right:30px;
+}
+#shoes1 .purp {
+    position: absolute;
+    width: 129px;
+    /* height: 112px; */
+    background: #F2D4DC;
+    border-radius: 14px;
+
+}
+
+#shoes1 .purp a {
+    display: block;
+    color: #945069;
+    padding: 82px 28px 14px 31px;
+
+}
+
+#shoes1 img {
+    position: relative;
+    bottom: 33px;
+}
+
+#shoes2 .sky {
+    position: absolute;
+    width: 172px;
+    height: 112px;
+    background: #C3DCE3;
+    border-radius: 14px;
+}
+#shoes2 .sky a{
+    display: block;
+    color: #2B788B;
+    padding: 82px 27.5px 14px 37.5px;
+}
+#shoes2 img{
+position:relative;
+left: 37px;
+bottom: 32px;
+}
+
+/* Increase */
+
+#increase {
+    background-color: var(--color);
+}
+
+#increase nav h1 {
+    max-width: 474.46px;
+    font-family: 'Mukta', sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 100%;
+    /* or 48px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Black */
+
+    color: #000000;
+    padding-top: 136.01px;
+    margin-bottom: 30px;
+}
+
+#increase nav h2 {
+    max-width: 396.89px;
+
+
+    /* Text/Body 1 */
+
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+    margin-bottom: 34px;
+}
+
+#increase nav a {
+    
+
+
+
+    /* Primaty/Cyan Light */
+
+    background: #C3DCE3;
+    border-radius: 100px;
+    color: #2B788B;
+    border: none;
+   
+    padding: 14px 45px 14px 22px;
+}
+
+#increase article img {
+    padding-top: 26.03px;
+}
+
+#increase .inc {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Progress */
+#progress nav {
+    display: flex;
+}
+
+#progress article img {
+    padding-top: 95.37px;
+}
+
+#progress nav .static h1 {
+    /* Headings/Heading 2 */
+    font-family: 'Mukta', sans-serif;
+    font-weight: 1000;
+
+    font-style: normal;
+
+    font-size: 48px;
+    line-height: 100%;
+    /* or 48px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Black */
+
+    color: #000000;
+    padding-top: 140px;
+    margin-bottom: 30px;
+}
+
+#progress nav .static h2 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    letter-spacing: -0.04em;
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+    margin-bottom: 30.5;
+}
+
+#progress nav .static a {
+    background: #C3DCE3;
+    border-radius: 100px;
+    color: #2B788B;
+    border: none;
+    padding: 14px 45px 14px 22px;
+}
+
+/* footer
+ */
+
+footer {
+    background-color: var(--color);
+    padding-bottom: 43.63px;
+}
+
+footer .home .first,
+.second {
+
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #757575;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer .home .first li{
+    margin-right: 16px;
+}
+footer .home .second li{
+    margin-left: 16px;
+}
+
+.first li:hover,
+.second li:hover {
+    color: #000000;
+    cursor:pointer;
+}
+
+footer .home {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer .home .first {
+    max-width: 414px;
+}
+
+footer .home .second {
+    max-width: 197px;
+}
+
+footer hr {
+    max-width: 1180px;
+    height: 0;
+
+    /* Primaty/Grey Medium */
+
+    border: 1.2px solid #E0E0E0;
+    /* transform: rotate(-90deg); */
+}
+
+footer .youtube {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 23.63px;
+}
+
+footer .youtube .three {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .youtube .four h1 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    /* identical to box height, or 12px */
+
+
+    /* Primaty/Grey Dark */
+
+    color: #757575;
+}

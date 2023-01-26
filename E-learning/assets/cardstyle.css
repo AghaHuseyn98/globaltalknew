@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header nav {
+    display: flex;
+
+}
+#header nav .hamburg i{
+    display: none;
+}
+
+.textstyle  {
+    text-decoration: none;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+#header nav div a {
+    margin-right: 30px;
+}
+
+#header nav hr {
+    border: 1.20466px solid #E0E0E0;
+    height: 16.87px;
+    width: 0;
+}
+
+#header nav a:hover {
+    color: #757575;
+    ;
+}
+
+#header #alex {
+    display: flex;
+    align-items: center;
+}
+
+#alex div i{
+    display: none;
+}
+
+#header #alex #signin a:nth-child(1) {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B788B;
+    background: #C3DCE3;
+    border-radius: 100px;
+    padding: 9px 14px;
+    margin-left: 10px;
+    text-decoration: none;
+
+}
+
+#header #alex #signin a:nth-child(2) {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+#header nav img {
+    margin-right: 10px;
+}
+
+#header nav hr {
+    margin-right: 30px !important;
+    border: 1.20466px solid #E0E0E0;
+}
+header #aral hr{
+    
+}
+
+/* .................................................................................... */
+#card {
+    background: #F6F5F4;
+    display: flex;
+    padding-top: 100px;
+}
+
+
+
+.github {
+    max-width: 550px;
+    margin: auto;
+}
+
+#card nav article img{
+    padding: 30px 30px 30px 30px;
+}
+
+#card nav article {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#card nav article .github div {
+    display: flex;
+    align-items: center;
+}
+
+#card nav article .github div h1 {
+    margin-right: 14px;
+}
+
+
+#card nav article .github div a {
+    text-decoration: none;
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #2B788B;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+#card nav article .github h2 {
+    font-family: var(--mont);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+
+}
+
+#card nav article {
+    max-width: 800px;
+    background: #FFFFFF;
+    box-shadow: 0px 22.8981px 45.7963px -11.4491px rgba(52, 41, 39, 0.08);
+    border-radius: 14px;
+
+}
